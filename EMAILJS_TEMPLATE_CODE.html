@@ -1,0 +1,47 @@
+<!-- 
+  EmailJS Template Code
+  Copy and paste this into your EmailJS template editor
+  
+  Steps:
+  1. Go to https://dashboard.emailjs.com/admin/templates
+  2. Click on your template (or create new one)
+  3. Switch to "Content" tab
+  4. Paste this HTML code in the template editor
+  5. Make sure "To Email" is set to: sudeeppazhoor@gmail.com
+  6. Save the template
+-->
+
+<div style="font-family: system-ui, sans-serif, Arial; font-size: 12px">
+  <div>A message by {{name}} has been received. Kindly respond at your earliest convenience.</div>
+  
+  <div style="margin-top: 20px; padding: 15px 0; border-width: 1px 0; border-style: dashed; border-color: lightgrey;">
+    <table role="presentation">
+      <tr>
+        <td style="vertical-align: top">
+          <div style="padding: 6px 10px; margin: 0 10px; background-color: aliceblue; border-radius: 5px; font-size: 26px;" role="img">
+            👤
+          </div>
+        </td>
+        <td style="vertical-align: top">
+          <div style="color: #2c3e50; font-size: 16px">
+            <strong>{{name}}</strong>
+          </div>
+          <div style="color: #7f8c8d; font-size: 13px">
+            Email: {{email}}
+          </div>
+          <div style="color: #cccccc; font-size: 13px">
+            {{time}}
+          </div>
+          <p style="font-size: 16px; color: #2c3e50; line-height: 1.6; margin-top: 15px;">
+            {{message}}
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  <div style="margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; font-size: 11px; color: #7f8c8d;">
+    <p style="margin: 0;">This message was sent from your portfolio contact form.</p>
+    <p style="margin: 5px 0 0 0;">Reply directly to this email to respond to {{name}}.</p>
+  </div>
+</div>

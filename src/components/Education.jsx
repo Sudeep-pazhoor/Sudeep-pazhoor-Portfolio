@@ -3,7 +3,7 @@ function Education() {
     {
       degree: 'B.Tech Computer Science',
       institution: 'Adi Shankara Institute Of Engineering And Technology',
-      university: 'A.P.J. Abdul Kalam Kerala Technological University',
+      university: 'A.P.J. Abdul Kalam Technological University',
       year: '2020 - 2024',
       grade: 'SGPA: 7.44',
     },
